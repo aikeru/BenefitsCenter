@@ -1,0 +1,5 @@
+C:\Working\BenefitsCenter\BenefitsCenter.Tests\bin\Debug\BenefitsCenter.Tests.dll
+C:\Working\BenefitsCenter\BenefitsCenter.Tests\bin\Debug\BenefitsCenter.Tests.pdb
+C:\Working\BenefitsCenter\BenefitsCenter.Tests\obj\Debug\BenefitsCenter.Tests.csprojResolveAssemblyReference.cache
+C:\Working\BenefitsCenter\BenefitsCenter.Tests\obj\Debug\BenefitsCenter.Tests.dll
+C:\Working\BenefitsCenter\BenefitsCenter.Tests\obj\Debug\BenefitsCenter.Tests.pdb

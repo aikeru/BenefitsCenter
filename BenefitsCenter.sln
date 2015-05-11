@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenefitsCenter", "BenefitsCenter\BenefitsCenter.csproj", "{E565BB8C-B7BF-4D47-80E6-B718C95A71DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenefitsCenter.Tests", "BenefitsCenter.Tests\BenefitsCenter.Tests.csproj", "{48995001-87A8-470F-802D-8AB4579E9E88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8619E0E5-E32F-4DE8-A0A1-1A850F5EC881}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E565BB8C-B7BF-4D47-80E6-B718C95A71DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E565BB8C-B7BF-4D47-80E6-B718C95A71DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E565BB8C-B7BF-4D47-80E6-B718C95A71DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E565BB8C-B7BF-4D47-80E6-B718C95A71DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48995001-87A8-470F-802D-8AB4579E9E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48995001-87A8-470F-802D-8AB4579E9E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48995001-87A8-470F-802D-8AB4579E9E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48995001-87A8-470F-802D-8AB4579E9E88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿{
+  "version": "1.0.0",
+  "name": "BenefitsCenter",
+  "devDependencies": { 
+    "gulp":  "^3.8.10",
+    "gulp-eslint": "*",
+    "gulp-watch": "*",
+    "gulp-qunit": "*"
+  }
+}
