@@ -1,7 +1,9 @@
-﻿var Benefits = window.Benefits || {};
+﻿/*eslint-env browser*/
+var Benefits = window.Benefits || {};
 Benefits.Worker = Benefits.Worker || {};
 
 Benefits.Worker.doWork = function doWork(amountOfWork) {
+  "use strict";
   ///<summary>Does some work</summary>
   ///<param name="amountOfWork" type="number">How much work to do</param>
   ///<returns type="number"></returns>
