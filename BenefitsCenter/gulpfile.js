@@ -10,8 +10,7 @@ var gulp = require('gulp'),
   fs = require('fs');
 
 //If you want to use Windows 8 built-in toasts...
-//var WindowsToaster = require('node-notifier/notifiers/toaster');
-//var notifier = new WindowsToaster({});
+//var Notifier = require('node-notifier/notifiers/toaster');
 
 //The below use Growl for Windows, which is a pretty customizable notification system for Windows
 var Notifier = require('node-notifier/notifiers/growl');
