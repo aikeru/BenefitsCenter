@@ -1,4 +1,8 @@
-﻿var gulp = require('gulp'),
+/// <vs SolutionOpened='js' />
+//jscs:disable
+//jshint ignore: start
+
+var gulp = require('gulp'),
   eslint = require('gulp-eslint'),
   watch = require('gulp-watch'),
     qunit = require('gulp-qunit');

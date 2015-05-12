@@ -3,3 +3,4 @@ node_modules
 [Bb]in
 [Dd]ebug*/
 [Rr]elease*/
+*.suo
