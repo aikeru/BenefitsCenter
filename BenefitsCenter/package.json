@@ -5,6 +5,8 @@
     "gulp":  "^3.8.10",
     "gulp-eslint": "*",
     "gulp-watch": "*",
-    "gulp-qunit": "*"
+    "gulp-qunit": "*",
+    "gulp-notify": "*",
+    "node-notifier": "*"
   }
 }
