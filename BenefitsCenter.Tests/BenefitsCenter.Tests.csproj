@@ -48,6 +48,7 @@
     <None Include="Client\Chutzpah.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ClientGulp\js-test-runner.html" />
     <Content Include="Client\Benefits.Worker.tests.js" />
     <Content Include="Client\qunit-1.18.0.js" />
   </ItemGroup>

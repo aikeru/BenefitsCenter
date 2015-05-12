@@ -19,6 +19,8 @@ gulp.task('lint', function () {
 });
 
 gulp.task('qunit', function () {
+  //There are many ways to run JavaScript unit tests. I've chosen to use an HTML document test runner.
+  //It will run under the headless phantomjs browser, from the console.
   return gulp.src('../BenefitsCenter.Tests/ClientGulp/js-test-runner.html')
     .pipe(qunit());
 });
