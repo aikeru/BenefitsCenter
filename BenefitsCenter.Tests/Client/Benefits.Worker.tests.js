@@ -6,4 +6,4 @@ test("When 5 work to do, Benefits Worker does 5 work", function () {
   equal(result, workToDo, "Amount of work done was unexpected.");
 });
 
-//test('Nooo', function () { ok(false); });
+test('Nooo', function () { ok(false); });

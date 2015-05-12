@@ -7,23 +7,30 @@ var gulp = require('gulp'),
   watch = require('gulp-watch'),
   qunit = require('gulp-qunit')
   notify = require('gulp-notify'),
-  fs = require('fs');
+  fs = require('fs'),
+  path = require('path');
 
 //If you want to use Windows 8 built-in toasts...
-//var Notifier = require('node-notifier/notifiers/toaster');
+var Notifier = require('node-notifier').WindowsToaster;
+var successNotifier = {},
+  failureNotifier = {};
+var successImage = path.join(__dirname, "Check.png");
+var errorImage = path.join(__dirname, "warning.png");
 
 //The below use Growl for Windows, which is a pretty customizable notification system for Windows
-var Notifier = require('node-notifier/notifiers/growl');
-var failureNotifier = {
-  name: 'node',
-  host: 'localhost',
-  port: 23053
-};
-var successNotifier = {
-  name: 'node-success',
-  host: 'localhost',
-  port: 23053
-};
+//var Notifier = require('node-notifier/notifiers/growl');
+//var failureNotifier = {
+//  name: 'node',
+//  host: 'localhost',
+//  port: 23053
+//};
+//var successNotifier = {
+//  name: 'node-success',
+//  host: 'localhost',
+//  port: 23053
+//};
+//var successImage = fs.readFileSync(__dirname + '/Check.png');
+//var errorImage = fs.readFileSync(__dirname + '/warning.png');
 
 var applicationScripts = 'Scripts/Application/**/*.js';
 var unitTestScripts = '../BenefitsCenter.Tests/Client/**/*.js'
@@ -51,7 +58,7 @@ gulp.task('qunit', function () {
     new Notifier(failureNotifier).notify({
       title: 'QUnit Tests Failed',
       message: 'Benefits Center JS Unit Tests failed.',
-      icon: fs.readFileSync(__dirname + '/warning.png')
+      icon: errorImage
     })
   })
   return testsPipe;
@@ -63,7 +70,7 @@ gulp.task('js', ['lint', 'qunit'], function () {
   new Notifier(successNotifier).notify({
     title: 'JavaScript Tasks Complete!',
     message: 'Linting and tests all OK!',
-    icon: fs.readFileSync(__dirname + '/Check.png'),
+    icon: successImage,
     sound: false
   });
 });
