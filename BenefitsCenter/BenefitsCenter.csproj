@@ -126,7 +126,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="gulpfile.js" />
     <Content Include="Scripts\Application\BenefitsWorker.js" />
-    <Content Include="Scripts\Application\Wizard.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="package.json" />
