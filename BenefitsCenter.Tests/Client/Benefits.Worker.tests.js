@@ -5,7 +5,3 @@ test("When 5 work to do, Benefits Worker does 5 work", function () {
   var result = Benefits.Worker.doWork(workToDo);
   equal(result, workToDo, "Amount of work done was unexpected.");
 });
-
-test('This test will fail', function () {
-  ok(false, "Exploded!");
-});

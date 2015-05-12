@@ -19,7 +19,7 @@ gulp.task('lint', function () {
 });
 
 gulp.task('qunit', function () {
-  return gulp.src('../BenefitsCenter.Tests/js-test-runner.html')
+  return gulp.src('../BenefitsCenter.Tests/ClientGulp/js-test-runner.html')
     .pipe(qunit());
 });
 
